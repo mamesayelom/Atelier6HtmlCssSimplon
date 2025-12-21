@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+
+}
+header .logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 50%;
+}
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+header nav .div1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .div1 a{
+    text-decoration: none;
+    color: rgb(28, 28, 92);
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    
+}
+header nav .div1 a:hover{
+    background-color: #fff3e0;
+    color: gray;
+}
+header nav .div1 a:active{
+    border-bottom:2px solid #e65100;
+}
+header nav .div2{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .div2 a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(28, 28, 92);
+}
+header nav .div2 .inscription{
+    background-color: #e65100;
+    border-radius: 10px;
+    color: #fff;
+}
+.section1{
+    height: 500px;
+    width: 100%;
+    background-image: url(images/banner-head-accueil.jpg);
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    padding: 100px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .divsection1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: o;
+    right: 0;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(115, 56, 20, 0.5);
+    /**background-color: #e65100;
+    opacity: 0.5;**/
+    
+}
+.section1 .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.section1 .flex .left{
+    width: 45%;
+    z-index: 1;
+}
+.section1 .flex .left h1{
+    color: #fff;
+}
+.section1 .flex .left p{
+    color: #fff;
+    font-size: 12px;
+}
+.section1 .flex .left span{
+    color: #ffb300;
+}
+.section1 .flex .right{
+    width: 50%;
+    height: 250px;
+    background-image: url(images/thieboudieunerouge.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+.section1 .flex .right .coursdispo{
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.5;
+    top: 10px;
+    right: 15px;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 10px;
+}
+.section1 .flex .right .coursdispo span{
+    color: #e65100;
+    font-weight: bold;
+}
+.section2{
+    width: 100%;
+    height: 200px;
+    padding: 30px 20%;
+    background-color: #fff3e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 22%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.section2 div h2{
+    color: #e65100;
+}
+.section2 div span{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(28, 28, 92);
+}
+.section3{
+    height: 320px;
+    width: 100%;
+    background-color: #fff;
+    padding: 40px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .divcenter{
+    width: 100%;
+}
+.section3 .divcenter h2,.section3 .divcenter .p1{
+    text-align: center;
+}
+.section3 .divcenter .p1{
+    font-size: 12px;
+    color: rgb(28, 28, 92);
+}
+.section3 .d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.section3 .d_flex div{
+    margin-top: 30px;
+    width: 31.5%;
+    height: 140px;
+    background-color: #e65100;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 1px 6px 4px rgba(0, 0, 0, 0.1);
+}
+.section3 .d_flex .div1{
+    background-color: #ffe1a0;
+    
+}
+.section3 .d_flex .div2{
+    background-color: hsl(42, 85%, 82%);
+    
+}
+.section3 .d_flex .div3{
+    background-color: #ffe1a0;
+}
+.section3 .d_flex div span{
+    font-weight: bold;
+    color: #f9af0f;
+}
+.section3 .d_flex p{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #4b370a;
+}
+.section3 a{
+    position: absolute;
+    bottom: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4b370a;
+}
+.section3 a i{
+    font-size: 10px;
+}
+
+.section4{
+    background-color: #fff3e0;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 40px 20%;
+    position: relative;
+}
+.section4 .span1{
+    position: absolute;
+    background-color: #fff3e0;
+    display: inline-block;
+    width: 45%;
+    height: 40px;
+    top: -20px;
+    transform: translateX(-260px);
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0% ;
+}
+.section4 h3{
+    margin: 16px 0;
+}
+
+.section5{
+    height: 310px ;
+    width: 100%;
+    text-align: center;
+    padding: 50px 12%;
+    background-color: #fff;
+}
+.section5 .d_flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.section5 .d_flex .div1,.section5 .d_flex .div2,.section5 .d_flex .div3,.section5 .d_flex .div4{
+    width: 23%;
+    height: 140px;
+    box-shadow: 1px 8px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px 10px;
+    position: relative;
+}
+.section5 .top{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.section5 .top .span1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section5 .top .bgcolor1{
+    background-color: #999;
+    border: 2px solid #ffb300;
+}
+.section5 .top .bgcolor2{
+    background-color: #e65100;
+    border: 2px solid #ffb300;
+}
+.section5 .top .bgcolor3{
+    background-color: #ffb300;
+    color: #fff;
+}
+.section5 .top .bgcolor4{
+    background-color: green;
+    border: 2px solid #ffb300;
+}
+.section5 .top .start{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.section5 .top .start .span2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.section5 .top .start .span3{
+    font-size: 12px;
+    color: #ffb300;
+}
+.section5 .top .start .span3 .grey{
+    color: rgba(0, 0, 0, 0.1);
+}
+.section5 .d_flex p{
+    font-size: 12px;
+    font-style: italic;
+    position: absolute;
+    bottom: 26px;
+    color: rgb(28, 28, 92);
+}
+
+.section6{
+    height: 360px;
+    background-image: url(images/banner-head-accueil.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section6 .superposition{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e65100;
+    opacity: 0.5;
+}
+.section6 .div1{
+    z-index: 1;
+}
+.section6 p{
+    margin: 20px 0;
+}
+.section6 button{
+    background-color: rgb(249, 246, 246);
+    padding: 16px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #e65100;
+    font-weight: bold;
+}
+.section6 button:hover{
+    background-color: #fff3e0;
+    color: #4b370a;
+}
+
+footer{
+    height: 350px;
+    background-color: rgb(29, 29, 49);
+    padding: 40px 7%;
+}
+footer .d_flex{
+    display: flex;
+    justify-content: space-between;
+    height: 190px;
+}
+footer .d_flex h4{
+    margin-bottom: 12px;
+    color: #fff;
+}
+footer .d_flex span{
+    display: inline-block;
+    padding: 5px 0;
+    color: #999;
+    font-size: 12px;
+}
+footer .d_flex .paddingb_0{
+   padding-bottom:0;
+}
+footer .d_flex .paddingt_0{
+   padding-top:0;
+}
+footer .d_flex .icone{
+    font-size: 16px;
+
+}
+footer hr{
+    color: rgba(0, 0, 0, 0.1);
+}
+footer p{
+    text-align: center;
+    color: #999;
+    margin: 40px 0;
+    font-size: 14px;
+}
