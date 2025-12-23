@@ -28,25 +28,25 @@
         </header>
 
         <section class="page_inscription_section1">
-            <div class="div_container">
+            <form class="div_container">
                 <div class="div1">
                     <h4>Informations de base</h4>
                     <div class="card_grid_1">
                         <div class="column_1">
-                            <label for="">Nom complet</label><br>
-                            <input type="text" name="" id="">
+                            <label for="nom">Nom complet</label><br>
+                            <input type="text" name="nom" id="nom">
                         </div>
                         <div class="column_2">
-                            <label for="">Email</label><br>
-                            <input type="email" name="" id="">
+                            <label for="Email">Email</label><br>
+                            <input type="email" name="Email" id="Email">
                         </div>
                         <div class="column_3">
-                            <label for="">Mot de pass</label><br>
-                            <input type="password" name="" id="">
+                            <label for="mdp">Mot de pass</label><br>
+                            <input type="password" name="mdp" id="mdp">
                         </div>
                         <div class="column_4">
-                            <label for="">Confirmer le mot de pass</label><br>
-                            <input type="password" name="" id="">
+                            <label for="c_mdp">Confirmer le mot de pass</label><br>
+                            <input type="password" name="c_mdp" id="c_mdp">
                         </div>
                     </div>
                 </div>
@@ -56,52 +56,52 @@
                     <h4>Informations professionnelles</h4>
                     <div class="card_grid_2">
                         <div class="column_1">
-                            <label for="">Categorie</label><br>
-                            <select name="" id="">
+                            <label for="categorie">Categorie</label><br>
+                            <select name="categorie" id="categorie">
                                 <option value="" selected>Selectionner une categorie</option>
                             </select>
                         </div>
                         <div class="column_2">
-                            <label for="">Annees d'experience</label><br>
-                            <input class="input" type="number" name="" id="">
+                            <label for="annee">Annees d'experience</label><br>
+                            <input class="input" type="number" name="annee" id="annee">
                         </div>
                         <div class="column_3">
-                            <label for="">Description</label><br>
-                            <textarea name="" id="" rows="3px"></textarea>
+                            <label for="description">Description</label><br>
+                            <textarea name="description" id="description" rows="3"></textarea>
                         </div>
                         <div class="column_4">
-                            <label for="">Services proposes</label>
+                            <h4>Services proposes</h4>
                             <div class="container">
                                 <div class="left">
                                     <div>
-                                        <input type="checkbox">
-                                        <label for="">Mariage</label>
+                                        <input type="checkbox" name="mariage" id="mariage">
+                                        <label for="mariage">Mariage</label>
                                     </div>
                                     <div>
-                                        <input type="checkbox">
-                                        <label for="">Evenements d'entreprise</label>
+                                        <input type="checkbox" name="even" id="even">
+                                        <label for="even">Evenements d'entreprise</label>
                                     </div>
                                     <div>
-                                        <input type="checkbox">
-                                        <label for="">Buffets</label>
+                                        <input type="checkbox" name="buffets" id="buffets">
+                                        <label for="buffets">Buffets</label>
                                     </div>
                                     <div>
-                                        <input type="checkbox">
-                                        <label for="">Cuisine sur mesure</label>
+                                        <input type="checkbox" name="cuisine" id="cuisine">
+                                        <label for="cuisine">Cuisine sur mesure</label>
                                     </div>
                                 </div>
                                 <div class="right">
                                     <div>
-                                        <input type="checkbox">
-                                        <label for="">Anniversaire</label>
+                                        <input type="checkbox" name="anniversaire" id="anniversaire">
+                                        <label for="anniversaire">Anniversaire</label>
                                     </div>
                                     <div>
-                                        <input type="checkbox">
-                                        <label for="">Cocktails</label>
+                                        <input type="checkbox" name="cocktails" id="cocktails">
+                                        <label for="cocktails">Cocktails</label>
                                     </div>
                                     <div>
-                                        <input type="checkbox">
-                                        <label for="">Diners prives</label>
+                                        <input type="checkbox" name="dinner" id="dinner">
+                                        <label for="dinner">Diners prives</label>
                                     </div>
                                 </div>
                             </div>
@@ -114,12 +114,12 @@
                     <h4>Informations de contact</h4>
                     <div class="card_grid_3">
                         <div class="column_1">
-                            <label for="">Telephone</label><br>
-                            <input type="text">
+                            <label for="telephne">Telephone</label><br>
+                            <input type="text" name="telephne" id="telephne">
                         </div>
                         <div class="column_2">
-                            <label for="">Adresse</label><br>
-                            <input type="text">
+                            <label for="adresse">Adresse</label><br>
+                            <input type="text" name="adresse" id="adresse">
                         </div>
                     </div>
                 </div>
@@ -127,8 +127,8 @@
                 <div class="div4">
                     <h4>Photo de profil</h4>
                     <div class="card_grid_4">
-                        <label for="">Photo</label><br>
-                        <input type="file">
+                        <label for="file">Photo</label><br>
+                        <input type="file" name="file" id="file">
                         <p>Formats acceptes : JPG, JPEG, PNG. Taille maximale: 10MB</p>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                 <div class="button">
                     <button>S'inscrire</button>
                 </div>
-            </div>
+            </form>
         </section>
 
         <footer>

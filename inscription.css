@@ -47,6 +47,7 @@
 }
 .page_inscription_section1 .div_container .div2 .card_grid_2 .column_4 .container{
     display: flex;
+    margin-top: 5px;
 }
 .page_inscription_section1 .div_container .div2 .card_grid_2 .column_4 .container .left{
     width: 50%;
