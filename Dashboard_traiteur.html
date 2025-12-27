@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Dashboard_traiteur.css">
+    <script src="https://kit.fontawesome.com/ac9de6fe89.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="div1">
+                    <i class="fa-regular fa-house"></i>
+                    <span>Tableau de bord</span>
+                </div>
+                <div class="div2">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>Cours de cuisine</span>
+                </div>
+                <div class="div3">
+                    <i class="fa-solid fa-tag"></i>
+                    <span>Catégories</span>
+                </div>
+                <div class="div4">
+                    <i class="fa-solid fa-hotel"></i>
+                    <span>Restaurants</span>
+                </div>
+                <div class="div5">
+                    <i class="fa-solid fa-hotel"></i>
+                    <span>Traiteurs</span>
+                </div>
+                <div class="div6">
+                    <i class="fa-regular fa-star"></i>
+                    <span>Avis</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="div1">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <a href="index.html">Retour a l'accueil</a>
+                </div>
+                <div class="div2">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <a href="connexion.html">Deconnexion</a>
+                </div>
+            </div>
+            
+        </aside>
+
+        <main class="content">
+            <div class="d_flex1">
+                <div>
+                    <h3>Restaurants</h3>
+                    <p>Gerez les restaurants de la plateforme.</p>
+                </div>
+                <button>Ajouter un restaurant</button>
+            </div>
+            <div class="container">
+                <label for="zone">Zone</label>
+                <div class="d_flex2">
+                    <select name="zone" id="zone">
+                        <option value="Toutes les zones">Toutes les zones</option>
+                    </select>
+                    <button>Filtrer</button>
+                </div>
+
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>NOM</th>
+                        <th>EMAIL</th>
+                        <th>ZONE</th>
+                        <th>STATUT</th>
+                        <th>ACTIONS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><div class="image"><img src="images/banner-caterers.jpg" alt="profil"><span>Chez Dakar Food</span></div></td>
+                        <td>contact@dakarf​ood.sn</td>
+                        <td>Dakar Plateau</td>
+                        <td><span class="en_attente">En attente</span></td>
+                        <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><div class="image"><img src="images/banner-caterers.jpg" alt="profil"><span>Le Baobab Gourmand</span></div></td>
+                        <td>baobab@gourmand.sn</td>
+                        <td>Yoff</td>
+                        <td><span class="en_attente">En attente</span></td>
+                        <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><div class="image"><img src="images/banner-caterers.jpg" alt="profil"><span>Saveurs de Thiès</span></div></td>
+                        <td>contact@saveurs.sn</td>
+                        <td>Thiès</td>
+                        <td><span class="verifier">Vérifié</span></td>
+                        <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><div class="image"><img src="images/banner-caterers.jpg" alt="profil"><span>Chez Fatou</span></div></td>
+                        <td>fatou@restaurant.sn</td>
+                        <td>Pikine</td>
+                        <td><span class="verifier">Vérifié</span></td>
+                        <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><div class="image"><img src="images/banner-caterers.jpg" alt="profil"><span>Le Teranga Délice</span></div></td>
+                        <td>teranga@delice.sn</td>
+                        <td>Guédiawaye</td>
+                        <td><span class="en_attente">En attente</span></td>
+                        <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><div class="image"><img src="images/banner-caterers.jpg" alt="profil"><span>Maison Ndiaye</span></div></td>
+                        <td>ndiaye@maison.sn</td>
+                        <td>Rufisque</td>
+                        <td><span class="en_attente">En attente</span></td>
+                        <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><div class="image"><img src="images/banner-caterers.jpg" alt="profil"><span>Chez Mame Cuisine</span></div></td>
+                        <td>mame@cuisine.sn</td>
+                        <td>Sacré-Cœur</td>
+                        <td><span class="en_attente">En attente</span></td>
+                        <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><div class="image"><img src="images/banner-caterers.jpg" alt="profil"><span>Restaurant Sunu Repas</span></div></td>
+                        <td>contact@sunurepas.sn</td>
+                        <td>Parcelles Assainies</td>
+                        <td><span class="en_attente">En attente</span></td>
+                        <td>
+                        <button>Modifier</button>
+                        <button>Supprimer</button>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </main>
+    </div>
+</body>
+</html>

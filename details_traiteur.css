@@ -1,0 +1,101 @@
+.page_details_traiteur_section1{
+    height: 980px;
+    background-image: url(images/pattern-background.svg);
+    padding: 30px;
+    position: relative;
+}
+.page_details_traiteur_section1 .superposition{
+    position: absolute;
+    inset: 0;
+    height: 980px;
+    background-color: #FFF3E0;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+.page_details_traiteur_section1 .image{
+    background-image: url(images/pexels-son-tung-tran-17375059-6718706.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    border-radius: 10px;
+    position: relative;
+}
+.page_details_traiteur_section1 .image .badge{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    gap: 15px;
+}
+.page_details_traiteur_section1 .image .badge .span1 i{
+    color: rgb(255, 255, 0);
+}
+.page_details_traiteur_section1 .image .badge .span2 .span3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: green;
+    font-size: 10px;
+}
+.page_details_traiteur_section1 .container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.page_details_traiteur_section1 .container span{
+    font-size: 14px;
+}
+.page_details_traiteur_section1 .container .left{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page_details_traiteur_section1 .container .right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page_details_traiteur_section1 .container .left .div1,.page_details_traiteur_section1 .container .left .div2,.page_details_traiteur_section1 .container .left .div3,.page_details_traiteur_section1 .container .right div{
+    background-color: #fff;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.page_details_traiteur_section1 .container .left .div2 .d_flex1 .lang{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding:0 5px;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+.page_details_traiteur_section1 .container .div3 .d_flex2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+}
+.page_details_traiteur_section1 .container .div3 .d_flex2 i{
+    color: green;
+}
+.page_details_traiteur_section1 .container .right div a{
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-weight: 500;
+}
