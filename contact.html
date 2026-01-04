@@ -2,8 +2,9 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="connexion.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contact.css">
         <script src="https://kit.fontawesome.com/ac9de6fe89.js" crossorigin="anonymous"></script>
         <title>Document</title>
     </head>
@@ -26,32 +27,56 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <section class="page_connexion">
-                <div class="container">
-                    <h3>Connexion</h3>
-                    <div class="div1">
-                        <label for="email">Email</label><br>
-                        <input class="input1" type="email" id="email" name="email"><br>
-                        <label for="mdp">Mot de passe</label><br>
-                        <input class="input2" type="password" id="mdp" name="mdp"><br>
-                        <div class="d_flex">
-                            <div>
-                                <input type="checkbox" id="souvenir" name="souvenir">
-                                <label for="souvenir">Se souvenir de moi</label>
-                            </div>
-                            <div>
-                                <a href="#">Mot de passe oublier ?</a>
-                            </div>
-                        </div>
-                        <div class="a1">
-                            <a href="#">Pas encore de compte ? Inscrivez-vous</a>
-                        </div>
-                        <a class="a2" href="Dashboard_traiteur.html">Se connecter</a>
+
+        <section class="page_contact_section1">
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes là pour vous aider. N’hésitez pas à nous contacter pour toute question ou suggestion.</p>
+            <div class="container">
+                <form action="#">
+                    <div class="prenom">
+                        <label for="prenom">Prénom</label><br>
+                        <input type="text" name="prenom" id="prenom"><br>
                     </div>
+                    <div class="nom">
+                        <label for="nom">Nom</label><br>
+                        <input type="text" name="nom" id="nom"><br>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email"><br>
+                    </div>
+                    <div class="telephone">
+                        <label for="telephone">Numéro de téléphone</label><br>
+                        <input type="text" name="telephone" id="telephone"><br>
+                    </div>
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6"></textarea>
+                    </div>
+                    <button><i class="fa-regular fa-envelope"></i> Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="page_contact_section2">
+            <div class="container">
+                <div class="card1">
+                    <span class="icone"><i class="fa-solid fa-phone"></i></span>
+                    <h1>Téléphone</h1>
+                    <span>+221 XX XXX XX XX</span>
                 </div>
-            </section>
-        </main>
+                <div class="card2">
+                    <span class="icone"><i class="fa-regular fa-envelope"></i></span>
+                    <h1>Email</h1>
+                    <span>contact@gmail.com</span>
+                </div>
+                <div class="card3">
+                    <span class="icone"><i class="fa-solid fa-location-dot"></i></span>
+                    <h1>Adresse</h1>
+                    <span>Dakar, sénégal</span>
+                </div>
+            </div>
+        </section>
 
         <footer>
             <div class="d_flex">

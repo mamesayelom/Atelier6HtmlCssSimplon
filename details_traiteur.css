@@ -1,5 +1,5 @@
 .page_details_traiteur_section1{
-    height: 980px;
+    height: 1100px;
     background-image: url(images/pattern-background.svg);
     padding: 30px;
     position: relative;
@@ -7,7 +7,7 @@
 .page_details_traiteur_section1 .superposition{
     position: absolute;
     inset: 0;
-    height: 980px;
+    height: 1100px;
     background-color: #FFF3E0;
     opacity: 0.5;
     z-index: -1;
